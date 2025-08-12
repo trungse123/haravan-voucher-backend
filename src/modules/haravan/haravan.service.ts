@@ -1,4 +1,5 @@
-// src/modules/haravan/haravan.service.ts
+import { Injectable } from '@nestjs/common';  // Import Injectable từ @nestjs/common
+import { ConfigService } from '@nestjs/config';  // Import ConfigService từ @nestjs/config
 import axios from 'axios';
 
 @Injectable()
